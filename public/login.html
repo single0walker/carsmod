@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>登录</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.box{
+			padding: 20px;
+			margin: auto;
+			width: 300px;
+			height: auto;
+			background-color: lightgray;
+			border: 2px solid #D3D3D3;
+			border-radius: 5px;
+			box-sizing: border-box;
+			margin-top: 90px;
+		}
+		h2{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		table{
+			margin: auto;
+		}
+		.btn{
+			width: 100px;
+			border-radius: 50px;
+			
+		}
+		.box>div{
+			margin: auto;
+			width: 205px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>登录</h2>
+		<table border="0px" cellspacing="" cellpadding="">
+			<tr>
+				<td>账号：</td>
+				<td><input type="text" name="" id="" value="" /></td>
+			</tr>
+			<tr>
+				<td>密码：</td>
+				<td><input type="password" name="" id="" value="" /></td>
+			</tr>
+			
+					
+				
+			
+		</table>
+		<div>
+			<input type="button" name="" class="btn" id="login" value="登录" />
+			<input type="button" name="" id="register" class="btn" value="注册" />
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		let login=document.getElementById("login");
+		let register=document.getElementById("register");
+		login.onclick=function(){
+			window.location.href="../Home.html";
+		}
+		register.onclick=function(){
+			window.location.href="./register.html";
+		}
+	</script>
+</body>
+</html>
