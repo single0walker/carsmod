@@ -319,7 +319,6 @@ a{
 	
 	.listshow {
 		width: 100%;
-		height: ;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 		border-right: 1px solid rgba(255, 255, 255, 0.5);
 		opacity: 0.7;
@@ -716,7 +715,7 @@ a{
 
 	.listshow {
 		width: 100%;
-		height: ;
+		display: block;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 		border-right: 1px solid rgba(255, 255, 255, 0.5);
 		opacity: 0.7;
