@@ -1,455 +1,487 @@
 <!DOCTYPE html>
 <html lang="zh">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>CarsMOD</title>
-		<link rel="stylesheet" type="text/css" href="./css/home.css" />
-	</head>
-	<body>
-		<div class="head">
 
-			<div class="topbtn">
-				<button type="button" class="btnlogin" id="btnlogin">三</button>
-				<ul id="logul">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CarsMOD</title>
+	<link rel="stylesheet" type="text/css" href="./css/home.css" />
+</head>
+
+<body>
+	<div class="head">
+
+		<div class="topbtn">
+			<button type="button" class="btnlogin" id="btnlogin">三</button>
+			<ul id="logul">
+				<li>
+					<div class="back">
+						<button type="button" id="btnlogingoback">
+							< </button>
+					</div>
+				</li>
+				<li>
+					<div class="userimg">
+						<div><img
+								src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F00%2F94%2F68%2F58dcd73302a43_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637656588&t=52a89432dcd92c79a38fd4c3699f236f"
+								style="width: 100%;"></div>
+						<button type="button" class="btnlogin" id="login_mob">登录</button>
+						<button type="button" class="btnjoin" id="register_mob">注册</button>
+					</div>
+				</li>
+				<li class="listshow">
+					<a href="">资源</a>
+				</li>
+				<li class="listshow">
+					<a href="">社区</a>
+				</li>
+				<li class="listshow">
+					<a href="">赛事</a>
+				</li>
+			</ul>
+		</div>
+		<img src="./img/LOGO.png" class="logo">
+		<ul><a href="#" class="index">首页</a>
+		</ul>
+		<ul>资源
+			<li>
+				<ul class="list">
+					<span>资源</span>
 					<li>
-						<div class="back">
-							<button type="button" id="btnlogingoback">
-								< 
-							</button>
-						</div>
+						<a href="./public/TuzhuangMods.html" class="listshow">
+							<span>涂装</span>
+							<div>
+								<img src="img/tuzhuang.png">
+							</div>
+						</a>
 					</li>
 					<li>
-						<div class="userimg">
-							<div><img
-									src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F00%2F94%2F68%2F58dcd73302a43_610.jpg&refer=http%3A%2F%2Fpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637656588&t=52a89432dcd92c79a38fd4c3699f236f"
-									style="width: 100%;"></div>
-							<button type="button" class="btnlogin" id="login_mob">登录</button>
-							<button type="button" class="btnjoin" id="register_mob">注册</button>
-						</div>
+						<a href="./public/ToukuiMods.html" class="listshow">
+							<span>头盔</span>
+							<div>
+								<img src="./img/toukui.png">
+							</div>
+						</a>
 					</li>
-					<li class="listshow">
-						<a href="">资源</a>
+					<li>
+						<a href="./public/FuzhuangMods.html" class="listshow">
+							<span>服装</span>
+							<div>
+								<img src="./img/fuzhuang.jpg">
+							</div>
+						</a>
 					</li>
-					<li class="listshow">
-						<a href="">社区</a>
-					</li>
-					<li class="listshow">
-						<a href="">赛事</a>
+					<li>
+						<a href="./public/OtherMods.html" class="listshow">
+							<span>其他</span>
+							<div>
+								<img src="./img/qita.png">
+							</div>
+						</a>
 					</li>
 				</ul>
-			</div>
-			<img src="./img/LOGO.png" class="logo">
-			<ul><a href="#" class="index">首页</a>
-			</ul>
-			<ul>资源
-				<li>
-					<ul class="list">
-						<span>资源</span>
-						<li>
-							<a href="./public/TuzhuangMods.html" class="listshow">
-								<span>涂装</span>
-								<div>
-									<img src="img/tuzhuang.png">
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="./public/ToukuiMods.html" class="listshow">
-								<span>头盔</span>
-								<div>
-									<img src="./img/toukui.png">
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="./public/FuzhuangMods.html" class="listshow">
-								<span>服装</span>
-								<div>
-									<img src="./img/fuzhuang.jpg">
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="./public/OtherMods.html" class="listshow">
-								<span>其他</span>
-								<div>
-									<img src="./img/qita.png">
-								</div>
-							</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<ul>社区
-				<li>
-					<ul class="list">
-						<span>社区</span>
-						<li>
-							<a href="./public/aboutgame.html">
-								<div class="listshow">
-									<span>游戏讨论</span>
-								</div>
-							</a>
-						</li>
-						<li>
+			</li>
+		</ul>
+		<ul>社区
+			<li>
+				<ul class="list">
+					<span>社区</span>
+					<li>
+						<a href="./public/aboutgame.html">
 							<div class="listshow">
-								<span>Mod交流</span>
+								<span>游戏讨论</span>
 							</div>
-						</li>
-						<li>
-							<div class="listshow">
-								<span>赛事讨论</span>
-							</div>
-						</li>
-						<li>
-							<div class="listshow">
-								<span>教程</span>
-							</div>
-						</li>
-					</ul>
-				</li>
-			</ul>
+						</a>
+					</li>
+					<li>
+						<div class="listshow">
+							<span>Mod交流</span>
+						</div>
+					</li>
+					<li>
+						<div class="listshow">
+							<span>赛事讨论</span>
+						</div>
+					</li>
+					<li>
+						<div class="listshow">
+							<span>教程</span>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
 
-			<ul>赛事
-				<li>
-					<ul class="rasing">
-						<span>赛事</span>
-					</ul>
-				</li>
-			</ul>
-			<div class="user" style="width: auto;">
-				<a href="./public/login.html" class="login"><span>登录</span></a>
-				<a href="./public/register.html" class="register"><span>注册</span></a>
-			</div>
+		<ul>赛事
+			<li>
+				<ul class="rasing">
+					<span>赛事</span>
+				</ul>
+			</li>
+		</ul>
+		<div class="user" style="width: auto;">
+			<a href="./public/login.html" class="login"><span>登录</span></a>
+			<a href="./public/register.html" class="register"><span>注册</span></a>
 		</div>
+	</div>
 
-		<div class="mid">
-			<div class="news">
-				<div class="newsleft">
-					<a href="./public/news01.html">
-						<h1>新闻</h1>
-						<div class="newstital">
-							<span>文章</span>
-							<h1 class="tital" style="color: #000000;">周冠宇成为中国历史上第一位F1正式车手</h1>
-							<div>
-								<img
-									src="https://www.formula1.com/content/dam/fom-website/manual/Zhou%203.png.transform/6col/image.png">
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="newsright">
-					<a href="./public/news02.html">
-						<div class="newsimg">
+	<div class="mid">
+		<div class="news">
+			<div class="newsleft">
+				<a href="./public/news01.html">
+					<h1>新闻</h1>
+					<div class="newstital">
+						<span>文章</span>
+						<h1 class="tital" style="color: #000000;">周冠宇成为中国历史上第一位F1正式车手</h1>
+						<div>
 							<img
-								src="https://img2.baidu.com/it/u=576792272,1890526871&fm=253&fmt=auto&app=120&f=JPEG?w=640&h=367">
+								src="https://www.formula1.com/content/dam/fom-website/manual/Zhou%203.png.transform/6col/image.png">
 						</div>
-						<div class="newstitle">
-							<span>阿尔法罗密欧：吉奥维纳兹将在2022年离队</span>
-						</div>
-					</a>
-					<a href="./public/news03.html">
-						<div class="newsimg">
-							<img
-								src="./img/2022.jpg" style="height: auto;">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">2022赛季 车手席位全部确定</span>
-						</div>
-					</a>
-					<a href="./public/news04.html">
-						<div class="newsimg">
-							<img
-								src="https://new.inews.gtimg.com/tnews/56affd4e/ff7e/56affd4e-ff7e-4ebe-a751-5dfa95cefafa.png ">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">汉密尔顿在巴西大奖赛中表现惊人</span>
-						</div>
-					</a>
-					<a href="./public/news05.html">
-						<div class="newsimg">
-							<img
-								src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnews.cnhubei.com%2Fa%2F10001%2F202110%2Fa8c4ed4d1fa8843046c36ba56e6893d4.jpeg&refer=http%3A%2F%2Fnews.cnhubei.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637667204&t=94004c5e8b2a315f452758353e2b9c06">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">2022赛季 赛历现已公布，23站成历史之最</span>
-						</div>
-					</a>
-				</div>
-				<div class="more_mob">
-					更多 >
-				</div>
+					</div>
+				</a>
 			</div>
-			<div class="ad">广告位招商</div>
-			<div class="news">
-				<div class="newsleft">
-					<a>
-						<h1>MOD</h1>
-						<div class="newstital">
-							<span>MOD</span>
-							<h1 class="tital" style="color: #000000;">WCP HaloHUD 现已更新1.3版本</h1>
-							<div>
-								<img src="./img/screen1.jpg">
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="newsright">
-					<a href="">
-						<div class="newsimg">
-							<img
-								src="https://img1.baidu.com/it/u=759728288,3613118109&fm=253&fmt=auto&app=120&f=JPEG?w=690&h=388 ">
-						</div>
-						<div class="newstitle">
-							<span>红牛土耳其大奖赛特殊涂装现已实装</span>
-						</div>
-					</a>
-					<a href="">
-						<div class="newsimg">
-							<img
-								src="https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/7d9ee465-aa4a-4df8-a26a-5c4c5f79290e/5b123099-c443-432d-9899-822a0d05a439/638x359/match/image.jpg">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">沙特阿拉伯赛道现已实装</span>
-						</div>
-					</a>
-					<a href="">
-						<div class="newsimg">
-							<img
-								src="https://new.inews.gtimg.com/tnews/56affd4e/ff7e/56affd4e-ff7e-4ebe-a751-5dfa95cefafa.png ">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">汉密尔顿对车队的进站策略表示失望</span>
-						</div>
-					</a>
-					<a href="">
-						<div class="newsimg">
-							<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Frose.qpic.cn%2Frose%2F940430302%2F1579012514044842086.gif%3Ffrom%3Drose%2F500&refer=http%3A%2F%2Frose.qpic.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639497198&t=4b4180fadc5f920602281f24eec323a1">
-						</div>
-						<div class="newstitle">
-							<span class="shadow">电视转播MOD卡顿原因：CPU占用过多</span>
-						</div>
-					</a>
-				</div>
+			<div class="newsright">
+				<a href="./public/news02.html">
+					<div class="newsimg">
+						<img
+							src="https://img2.baidu.com/it/u=576792272,1890526871&fm=253&fmt=auto&app=120&f=JPEG?w=640&h=367">
+					</div>
+					<div class="newstitle">
+						<span>阿尔法罗密欧：吉奥维纳兹将在2022年离队</span>
+					</div>
+				</a>
+				<a href="./public/news03.html">
+					<div class="newsimg">
+						<img src="./img/2022.jpg" style="height: auto;">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">2022赛季 车手席位全部确定</span>
+					</div>
+				</a>
+				<a href="./public/news04.html">
+					<div class="newsimg">
+						<img
+							src="https://new.inews.gtimg.com/tnews/56affd4e/ff7e/56affd4e-ff7e-4ebe-a751-5dfa95cefafa.png ">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">汉密尔顿在巴西大奖赛中表现惊人</span>
+					</div>
+				</a>
+				<a href="./public/news05.html">
+					<div class="newsimg">
+						<img
+							src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnews.cnhubei.com%2Fa%2F10001%2F202110%2Fa8c4ed4d1fa8843046c36ba56e6893d4.jpeg&refer=http%3A%2F%2Fnews.cnhubei.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637667204&t=94004c5e8b2a315f452758353e2b9c06">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">2022赛季 赛历现已公布，23站成历史之最</span>
+					</div>
+				</a>
 			</div>
 			<div class="more_mob">
 				更多 >
 			</div>
 		</div>
 		<div class="ad">广告位招商</div>
-		<div class="news news_mob">
-			<div class="saishi">
-				<div>
-					<img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Bahrain/_jcr_content/countryFlag.img.jpg/1422628487266.jpg">
-					<h2>BAHRAIN</h2>
-					<h2>巴林</h2>
-					<h1>28</h1>
-					<h2>3月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/EmiliaRomagna/_jcr_content/countryFlag.img.jpg/1423092277308.jpg">
-						<h2>ITALY</h2>
-						<h2>意大利</h2>
-						<h1>18</h1>
-						<h2>5月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Portugal/_jcr_content/countryFlag.img.jpg/1595332838033.jpg">
-						<h2>RORTUGAL</h2>
-						<h2>葡萄牙</h2>
-						<h1>02</h1>
-						<h2>5月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Spain/_jcr_content/countryFlag.img.gif/1423082998724.gif">
-						<h2>SPAIN</h2>
-						<h2>西班牙</h2>
-						<h1>09</h1>
-						<h2>5月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Monaco/_jcr_content/countryFlag.img.jpg/1424084489861.jpg">
-						<h2>MONACO</h2>
-						<h2>摩纳哥</h2>
-						<h1>23</h1>
-						<h2>5月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Azerbaijan/_jcr_content/countryFlag.img.jpg/1450105505963.jpg">
-						<h2>AZERBIJAN</h2>
-						<h2>阿塞拜疆</h2>
-						<h1>06</h1>
-						<h2>6月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/France/_jcr_content/countryFlag.img.gif/1512401252355.gif">
-						<h2>FRANCE</h2>
-						<h2>法国</h2>
-						<h1>20</h1>
-						<h2>6月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Austria/_jcr_content/countryFlag.img.gif/1423087584504.gif">
-						<h2>AUSTRIA</h2>
-						<h2>奥地利</h2>
-						<h1>27</h1>
-						<h2>6月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Austria/_jcr_content/countryFlag.img.gif/1423087584504.gif">
-						<h2>AUSTRIA</h2>
-						<h2>奥地利</h2>
-						<h1>04</h1>
-						<h2>7月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/great-britain-flag.png.transform/2col/image.png">
-						<h2>GREAT BRITAIN</h2>
-						<h2>英国</h2>
-						<h1>18</h1>
-						<h2>7月</h2>
-				</div>
-
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Hungary/_jcr_content/countryFlag.img.gif/1423091900663.gif">
-						<h2>HUNGARY</h2>
-						<h2>匈牙利</h2>
-						<h1>01</h1>
-						<h2>8月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Belgium/_jcr_content/countryFlag.img.jpg/1423092657855.jpg">
-						<h2>BELGIUM</h2>
-						<h2>比利时</h2>
-						<h1>29</h1>
-						<h2>8月</h2>
-				</div>
-
-
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Netherlands/_jcr_content/countryFlag.img.jpg/1536080050633.jpg">
-						<h2>NETHERLANDS</h2>
-						<h2>荷兰</h2>
-						<h1>05</h1>
-						<h2>9月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Italy/_jcr_content/countryFlag.img.jpg/1423092277308.jpg">
-						<h2>ITALY</h2>
-						<h2>意大利</h2>
-						<h1>12</h1>
-						<h2>9月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/fom-website/en/racing/2021/Russia/_jcr_content/countryFlag.img.jpg/1615562066209.jpg">
-						<h2>RUSSIA</h2>
-						<h2>俄罗斯</h2>
-						<h1>26</h1>
-						<h2>9月</h2>
-				</div>
-
-
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/turkey-flag.png.transform/2col/image.png">
-						<h2>TURKEY</h2>
-						<h2>土耳其</h2>
-						<h1>10</h1>
-						<h2>10月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/united-states-flag.png.transform/2col/image.png">
-						<h2>U.S.A</h2>
-						<h2>美国</h2>
-						<h1>24</h1>
-						<h2>10月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/mexico-flag.png.transform/2col/image.png">
-						<h2>MEXICO</h2>
-						<h2>墨西哥</h2>
-						<h1>07</h1>
-						<h2>11月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/brazil-flag.png.transform/2col/image.png">
-						<h2>BRAZIL</h2>
-						<h2>巴西</h2>
-						<h1>14</h1>
-						<h2>11月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/qatar-flag.png.transform/2col/image.png">
-						<h2>QATAR</h2>
-						<h2>卡塔尔</h2>
-						<h1>21</h1>
-						<h2>11月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/saudi-arabia-flag.png.transform/2col/image.png">
-						<h2>SAUDI ARABIA</h2>
-						<h2>沙特</h2>
-						<h1>05</h1>
-						<h2>12月</h2>
-				</div>
-				<div><img
-						src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/abu-dhabi-flag.png.transform/2col/image.png">
-						<h2>ABU DHABI</h2>
-						<h2>阿布扎比</h2>
-						<h1>12</h1>
-						<h2>12月</h2>
-				</div>
+		<div class="news">
+			<div class="newsleft">
+				<a>
+					<h1>MOD</h1>
+					<div class="newstital">
+						<span>MOD</span>
+						<h1 class="tital" style="color: #000000;">WCP HaloHUD 现已更新1.3版本</h1>
+						<div>
+							<img src="./img/screen1.jpg">
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="newsright">
+				<a href="">
+					<div class="newsimg">
+						<img
+							src="https://img1.baidu.com/it/u=759728288,3613118109&fm=253&fmt=auto&app=120&f=JPEG?w=690&h=388 ">
+					</div>
+					<div class="newstitle">
+						<span>红牛土耳其大奖赛特殊涂装现已实装</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="newsimg">
+						<img
+							src="https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/7d9ee465-aa4a-4df8-a26a-5c4c5f79290e/5b123099-c443-432d-9899-822a0d05a439/638x359/match/image.jpg">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">沙特阿拉伯赛道现已实装</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="newsimg">
+						<img
+							src="https://new.inews.gtimg.com/tnews/56affd4e/ff7e/56affd4e-ff7e-4ebe-a751-5dfa95cefafa.png ">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">汉密尔顿对车队的进站策略表示失望</span>
+					</div>
+				</a>
+				<a href="">
+					<div class="newsimg">
+						<img
+							src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Frose.qpic.cn%2Frose%2F940430302%2F1579012514044842086.gif%3Ffrom%3Drose%2F500&refer=http%3A%2F%2Frose.qpic.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1639497198&t=4b4180fadc5f920602281f24eec323a1">
+					</div>
+					<div class="newstitle">
+						<span class="shadow">电视转播MOD卡顿原因：CPU占用过多</span>
+					</div>
+				</a>
 			</div>
 		</div>
-		<div class="ad">广告位招商</div>
-		<div class="news news_mob">
-			<h1 style="text-align: center;font-size: 60px;">排行榜</h1>
-			<div class="jifenbang">
-				<ol>
-					<li><div style="background:#0600ef;" ></div> Max VERSTAPPEN <span>351.5 PTS</span></li>
-					<li><div style="background:#00d2be" ></div> Lewis HAMILTON <span>343.5 PTS</span></li>
-					<li><div style="background:#00d2be" ></div> Vaitteri BOTTAS <span>203 PTS</span></li>
-					<li><div style="background:#0600ef;" ></div> Sergio PEREZ <span>190 PTS</span></li>
-					<li><div style="background:#FF9800" ></div> Lando NORRIS <span>153 PTS</span></li>
-					<li><div style="background:#dc0000" ></div> Charles LECLERC <span>152 PTS</span></li>
-					<li><div style="background:#dc0000" ></div> Carlos SAINZ <span>145.5 PTS</span></li>
-					<li><div style="background:#FF9800" ></div> Daniel RICCIARDO <span>105 PTS</span></li>
-					<li><div style="background:#2b4562" ></div> Pierre GASLY <span>92 PTS</span></li>
-					<li><div style="background:#0090ff;" ></div> Fernando ALONSO <span>77 PTS</span></li>
-				</ol>
+		<div class="more_mob">
+			更多 >
+		</div>
+	</div>
+	<div class="ad">广告位招商</div>
+	<div class="news news_mob">
+		<div class="saishi">
+			<div>
+				<img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Bahrain/_jcr_content/countryFlag.img.jpg/1422628487266.jpg">
+				<h2>BAHRAIN</h2>
+				<h2>巴林</h2>
+				<h1>28</h1>
+				<h2>3月</h2>
 			</div>
-			<a href="./public/paihangbang.html"><span class="more">更多 ></span></a>
-		</div>
-		</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/EmiliaRomagna/_jcr_content/countryFlag.img.jpg/1423092277308.jpg">
+				<h2>ITALY</h2>
+				<h2>意大利</h2>
+				<h1>18</h1>
+				<h2>5月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Portugal/_jcr_content/countryFlag.img.jpg/1595332838033.jpg">
+				<h2>RORTUGAL</h2>
+				<h2>葡萄牙</h2>
+				<h1>02</h1>
+				<h2>5月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Spain/_jcr_content/countryFlag.img.gif/1423082998724.gif">
+				<h2>SPAIN</h2>
+				<h2>西班牙</h2>
+				<h1>09</h1>
+				<h2>5月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Monaco/_jcr_content/countryFlag.img.jpg/1424084489861.jpg">
+				<h2>MONACO</h2>
+				<h2>摩纳哥</h2>
+				<h1>23</h1>
+				<h2>5月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Azerbaijan/_jcr_content/countryFlag.img.jpg/1450105505963.jpg">
+				<h2>AZERBIJAN</h2>
+				<h2>阿塞拜疆</h2>
+				<h1>06</h1>
+				<h2>6月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/France/_jcr_content/countryFlag.img.gif/1512401252355.gif">
+				<h2>FRANCE</h2>
+				<h2>法国</h2>
+				<h1>20</h1>
+				<h2>6月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Austria/_jcr_content/countryFlag.img.gif/1423087584504.gif">
+				<h2>AUSTRIA</h2>
+				<h2>奥地利</h2>
+				<h1>27</h1>
+				<h2>6月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Austria/_jcr_content/countryFlag.img.gif/1423087584504.gif">
+				<h2>AUSTRIA</h2>
+				<h2>奥地利</h2>
+				<h1>04</h1>
+				<h2>7月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/great-britain-flag.png.transform/2col/image.png">
+				<h2>GREAT BRITAIN</h2>
+				<h2>英国</h2>
+				<h1>18</h1>
+				<h2>7月</h2>
+			</div>
+
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Hungary/_jcr_content/countryFlag.img.gif/1423091900663.gif">
+				<h2>HUNGARY</h2>
+				<h2>匈牙利</h2>
+				<h1>01</h1>
+				<h2>8月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Belgium/_jcr_content/countryFlag.img.jpg/1423092657855.jpg">
+				<h2>BELGIUM</h2>
+				<h2>比利时</h2>
+				<h1>29</h1>
+				<h2>8月</h2>
+			</div>
 
 
-		<div class="underbox">
-			<h1>CarsMOD</h1>
-			<p>感谢您的支持，想第一时间获取更多mod咨询请加 Q群：1140443662</p>
-			<p>如果您想为此网站的建设贡献一份力 请 <a href="">点击此处</a> 捐助作者以维持网站的运营</p>
-			<p>如果此网站中的某个元素侵犯了您的利益 请 <a href="">点击此处</a> 联系站长 </p>
-		</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Netherlands/_jcr_content/countryFlag.img.jpg/1536080050633.jpg">
+				<h2>NETHERLANDS</h2>
+				<h2>荷兰</h2>
+				<h1>05</h1>
+				<h2>9月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Italy/_jcr_content/countryFlag.img.jpg/1423092277308.jpg">
+				<h2>ITALY</h2>
+				<h2>意大利</h2>
+				<h1>12</h1>
+				<h2>9月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/fom-website/en/racing/2021/Russia/_jcr_content/countryFlag.img.jpg/1615562066209.jpg">
+				<h2>RUSSIA</h2>
+				<h2>俄罗斯</h2>
+				<h1>26</h1>
+				<h2>9月</h2>
+			</div>
 
-		<script type="text/javascript">
-			let logbtn = document.getElementById("btnlogin");
-			let logbtngoback = document.getElementById("btnlogingoback");
-			let logul = document.getElementById("logul")
-			logbtn.onclick = function() {
-				logul.style.cssText = "display:block";
-			}
-			logbtngoback.onclick = function() {
-				logul.style.cssText = "display:none";
-			}
-			let logbtn_mob = document.getElementById("login_mob");
-			let register_mob = document.getElementById("register_mob");
-			logbtn_mob.onclick = function() {
-				window.location.href = "./public/login.html";
-			}
-			register_mob.onclick = function() {
-				window.location.href = "./public/register.html";
-			}
-		</script>
-	</body>
+
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/turkey-flag.png.transform/2col/image.png">
+				<h2>TURKEY</h2>
+				<h2>土耳其</h2>
+				<h1>10</h1>
+				<h2>10月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/united-states-flag.png.transform/2col/image.png">
+				<h2>U.S.A</h2>
+				<h2>美国</h2>
+				<h1>24</h1>
+				<h2>10月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/mexico-flag.png.transform/2col/image.png">
+				<h2>MEXICO</h2>
+				<h2>墨西哥</h2>
+				<h1>07</h1>
+				<h2>11月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/brazil-flag.png.transform/2col/image.png">
+				<h2>BRAZIL</h2>
+				<h2>巴西</h2>
+				<h1>14</h1>
+				<h2>11月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/qatar-flag.png.transform/2col/image.png">
+				<h2>QATAR</h2>
+				<h2>卡塔尔</h2>
+				<h1>21</h1>
+				<h2>11月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/saudi-arabia-flag.png.transform/2col/image.png">
+				<h2>SAUDI ARABIA</h2>
+				<h2>沙特</h2>
+				<h1>05</h1>
+				<h2>12月</h2>
+			</div>
+			<div><img
+					src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/abu-dhabi-flag.png.transform/2col/image.png">
+				<h2>ABU DHABI</h2>
+				<h2>阿布扎比</h2>
+				<h1>12</h1>
+				<h2>12月</h2>
+			</div>
+		</div>
+	</div>
+	<div class="ad">广告位招商</div>
+	<div class="news news_mob">
+		<h1 style="text-align: center;font-size: 60px;">排行榜</h1>
+		<div class="jifenbang" id="app">
+			<ol>
+				<li v-for="n in topTen" :key="n">
+					<div :style="{background: n.color}"></div>
+					{{n.name}}
+					<span>{{n.pts}} PTS</span>
+				</li>
+
+			</ol>
+		</div>
+		<a href="./public/paihangbang.html"><span class="more">更多 ></span></a>
+	</div>
+	</div>
+
+
+	<div class="underbox">
+		<h1>CarsMOD</h1>
+		<p>感谢您的支持，想第一时间获取更多mod咨询请加 Q群：1140443662</p>
+		<p>如果您想为此网站的建设贡献一份力 请 <a href="">点击此处</a> 捐助作者以维持网站的运营</p>
+		<p>如果此网站中的某个元素侵犯了您的利益 请 <a href="">点击此处</a> 联系站长 </p>
+	</div>
+	<script src="./js/vue.js"></script>
+	<script type="text/javascript">
+		var app = new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello Vue!',
+				arr: [
+					{ name: 'Max Verstappen', color: '#3671C6', pts: 25 },
+					{ name: 'Sergio Perez', color: '#3671C6', pts: 18 },
+					{ name: 'Fernando Alonso', color: '#358C75', pts: 15 },
+					{ name: 'Carlos Sainz', color: '#F91536', pts: 12 },
+					{ name: 'Lewis Hamilton', color: '#6CD3BF', pts: 10 },
+					{ name: 'Lance Stroll', color: '#358C75', pts: 8 },
+					{ name: 'George Russell', color: '#6CD3BF', pts: 6 },
+					{ name: 'Valtteri Bottas', color: '#C92D4B', pts: 4 },
+					{ name: 'Pierre Gasly', color: '#2293D1', pts: 2 },
+					{ name: 'Alexander Albon', color: '#37BEDD', pts: 1 },
+					{ name: 'Yuki Tsunoda', color: '#5E8FAA', pts: 0 },
+					{ name: 'Logan Sargeant', color: '#37BEDD;', pts: 0 },
+					{ name: 'Kevin Magnussen', color: '#B6BABD', pts: 0 },
+					{ name: 'Nyck De Vries', color: '#5E8FAA', pts: 0 },
+					{ name: 'Nico Hulkenberg', color: '#B6BABD', pts: 0 },
+					{ name: 'Zhou Guanyu', color: '#C92D4B', pts: 0 },
+					{ name: 'Lando Norris', color: '#F58020', pts: 0 },
+					{ name: 'Oscar Piastri', color: '#F58020', pts: 0 },
+					{ name: 'Esteban Ocon', color: '#2293D1', pts: 0 },
+					{ name: 'Charles Leclerc', color: '#F91536', pts: 0 }
+				]
+			},
+			computed: {
+    			topTen() {
+      				return this.arr.slice(0, 10)
+    			}
+  			}
+		})
+		let logbtn = document.getElementById("btnlogin");
+		let logbtngoback = document.getElementById("btnlogingoback");
+		let logul = document.getElementById("logul")
+		logbtn.onclick = function () {
+			logul.style.cssText = "display:block";
+		}
+		logbtngoback.onclick = function () {
+			logul.style.cssText = "display:none";
+		}
+		let logbtn_mob = document.getElementById("login_mob");
+		let register_mob = document.getElementById("register_mob");
+		logbtn_mob.onclick = function () {
+			window.location.href = "./public/login.html";
+		}
+		register_mob.onclick = function () {
+			window.location.href = "./public/register.html";
+		}
+	</script>
+
+</body>
+
 </html>
