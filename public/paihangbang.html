@@ -9,94 +9,93 @@
 </head>
 <body>
 	<div class="head">
-		<img src="../img/LOGO.png" class="logo">
-		<ul>首页
-		</ul>
-		<ul>资源
-			<li>
-				<ul class="list">
-					<span>资源</span>
-					<li>
-						<div class="listshow">
-							<span>涂装</span>
-							<div>
-								<img src="../img/tuzhuang.png">
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>头盔</span>
-							<div>
-								<img src="../img/toukui.png">
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>服装</span>
-							<div>
-								<img src="../img/fuzhuang.jpg">
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>其他</span>
-							<div>
-								<img src="../img/qita.png">
-							</div>
-						</div>
-					</li>
-				</ul>
-			</li>
-		</ul>
-		<ul>社区
-			<li>
-				<ul class="list">
-					<span>社区</span>
-					<li>
-						<a href="./public/aboutgame.html">
-							<div class="listshow">
-								<span>游戏讨论</span>
-							</div>
-						</a>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>Mod交流</span>
-						</div>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>赛事讨论</span>
-						</div>
-					</li>
-					<li>
-						<div class="listshow">
-							<span>教程</span>
-						</div>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	
-		<ul>赛事
-			<li>
-				<ul class="rasing">
-					<span>赛事</span>
-				</ul>
-			</li>
-		</ul>
-		<div class="user" style="width: auto;">
-			<a href="./login.html" class="login"><span>登录</span></a>
-			<a href="./register.html" class="register"><span>注册</span></a>
-		</div>
-	</div>
+        <img src="../img/LOGO.png" class="logo">
+        <ul><a href="../index.html" class="index">首页</a></ul>
+        <ul>资源
+            <li>
+                <ul class="list">
+                    <span>资源</span>
+                    <li>
+                        <a href="./TuzhuangMods.html" class="listshow">
+                            <span>涂装</span>
+                            <div>
+                                <img src="../img/tuzhuang.png">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./ToukuiMods.html" class="listshow">
+                            <span>头盔</span>
+                            <div>
+                                <img src="../img/toukui.png">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./FuzhuangMods.html" class="listshow">
+                            <span>服装</span>
+                            <div>
+                                <img src="../img/fuzhuang.jpg">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./OtherMods.html" class="listshow">
+                            <span>其他</span>
+                            <div>
+                                <img src="../img/qita.png">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>社区
+            <li>
+                <ul class="list">
+                    <span>社区</span>
+                    <li>
+                        <a href="./public/aboutgame.html">
+                            <div class="listshow">
+                                <span>游戏讨论</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="listshow">
+                            <span>Mod交流</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listshow">
+                            <span>赛事讨论</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listshow">
+                            <span>教程</span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    
+        <ul>赛事
+            <li>
+                <ul class="rasing">
+                    <span>赛事</span>
+                </ul>
+            </li>
+        </ul>
+        <div class="user" style="width: auto;">
+            <a href="./login.html" class="login"><span>登录</span></a>
+            <a href="./register.html" class="register"><span>注册</span></a>
+        </div>
+    </div>
 	<div class="jifenbang" style="margin-bottom: 50px;" id="app">
 		<h1 style="text-align: center;font-size: 60px;">排行榜</h1>
 		<ol>
-			<li v-for="n in arr" :key="n">
+			<li v-for="n in topTen">
 				<div :style="{background: n.color}"></div>
 				{{n.name}}
 				<span>{{n.pts}} PTS</span>
@@ -117,29 +116,33 @@
 			data: {
 				message: 'Hello Vue!',
 				arr: [
-					{ name: 'Max Verstappen', color: '#3671C6', pts: 25 },
-					{ name: 'Sergio Perez', color: '#3671C6', pts: 18 },
-					{ name: 'Fernando Alonso', color: '#358C75', pts: 15 },
-					{ name: 'Carlos Sainz', color: '#F91536', pts: 12 },
-					{ name: 'Lewis Hamilton', color: '#6CD3BF', pts: 10 },
+					{ name: 'Max Verstappen', color: '#3671C6', pts: 44 },
+					{ name: 'Sergio Perez', color: '#3671C6', pts:43  },
+					{ name: 'Fernando Alonso', color: '#358C75', pts: 30 },
+					{ name: 'Carlos Sainz', color: '#F91536', pts: 20 },
+					{ name: 'Lewis Hamilton', color: '#6CD3BF', pts: 20 },
 					{ name: 'Lance Stroll', color: '#358C75', pts: 8 },
-					{ name: 'George Russell', color: '#6CD3BF', pts: 6 },
+					{ name: 'George Russell', color: '#6CD3BF', pts: 18 },
 					{ name: 'Valtteri Bottas', color: '#C92D4B', pts: 4 },
-					{ name: 'Pierre Gasly', color: '#2293D1', pts: 2 },
+					{ name: 'Pierre Gasly', color: '#2293D1', pts: 4 },
 					{ name: 'Alexander Albon', color: '#37BEDD', pts: 1 },
 					{ name: 'Yuki Tsunoda', color: '#5E8FAA', pts: 0 },
 					{ name: 'Logan Sargeant', color: '#37BEDD', pts: 0 },
-					{ name: 'Kevin Magnussen', color: '#B6BABD', pts: 0 },
+					{ name: 'Kevin Magnussen', color: '#B6BABD', pts: 1 },
 					{ name: 'Nyck De Vries', color: '#5E8FAA', pts: 0 },
 					{ name: 'Nico Hulkenberg', color: '#B6BABD', pts: 0 },
 					{ name: 'Zhou Guanyu', color: '#C92D4B', pts: 0 },
 					{ name: 'Lando Norris', color: '#F58020', pts: 0 },
 					{ name: 'Oscar Piastri', color: '#F58020', pts: 0 },
-					{ name: 'Esteban Ocon', color: '#2293D1', pts: 0 },
-					{ name: 'Charles Leclerc', color: '#F91536', pts: 0 }
+					{ name: 'Esteban Ocon', color: '#2293D1', pts: 4 },
+					{ name: 'Charles Leclerc', color: '#F91536', pts: 6 }
 				]
-			}
-			
+			},
+			computed: {
+    			topTen() {
+      				return this.arr.sort((a, b) => b.pts - a.pts);
+    			}
+  			}
 		})
 	</script>
 </body>

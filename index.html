@@ -133,10 +133,10 @@
 					<h1>新闻</h1>
 					<div class="newstital">
 						<span>文章</span>
-						<h1 class="tital" style="color: #000000;">周冠宇成为中国历史上第一位F1正式车手</h1>
+						<h1 class="tital" style="color: #000000;">瓦瑟尔敦促各位保持冷静</h1>
 						<div>
 							<img
-								src="https://www.formula1.com/content/dam/fom-website/manual/Zhou%203.png.transform/6col/image.png">
+								src="https://media.formula1.com/image/upload/v1677244313/trackside-images/2023/Formula_1_Testing_in_Bahrain___Day_Two/1469166207.jpg.transform/9col/image.jpg">
 						</div>
 					</div>
 				</a>
@@ -145,36 +145,36 @@
 				<a href="./public/news02.html">
 					<div class="newsimg">
 						<img
-							src="https://img2.baidu.com/it/u=576792272,1890526871&fm=253&fmt=auto&app=120&f=JPEG?w=640&h=367">
+							src="https://media.formula1.com/image/upload/f_auto/q_auto/v1679564496/wolff-lauda.png.transform/9col/image.png">
 					</div>
 					<div class="newstitle">
-						<span>阿尔法罗密欧：吉奥维纳兹将在2022年离队</span>
+						<span>Wolff承认，在梅赛德斯艰难的时刻，他想念Niki Lauda</span>
 					</div>
 				</a>
 				<a href="./public/news03.html">
 					<div class="newsimg">
-						<img src="./img/2022.jpg" style="height: auto;">
+						<img src="https://media.formula1.com/image/upload/v1679253251/trackside-images/2023/F1_Grand_Prix_of_Saudi_Arabia/1474643253.jpg.transform/9col/image.jpg" style="height: auto;">
 					</div>
 					<div class="newstitle">
-						<span class="shadow">2022赛季 车手席位全部确定</span>
+						<span class="shadow">新秀德弗里斯承认自己攻击性不够。</span>
 					</div>
 				</a>
 				<a href="./public/news04.html">
 					<div class="newsimg">
 						<img
-							src="https://new.inews.gtimg.com/tnews/56affd4e/ff7e/56affd4e-ff7e-4ebe-a751-5dfa95cefafa.png ">
+							src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677249840/content/dam/fom-website/manual/Red_Bull_Q%26A_02.jpg.transform/9col/image.jpg">
 					</div>
 					<div class="newstitle">
-						<span class="shadow">汉密尔顿在巴西大奖赛中表现惊人</span>
+						<span class="shadow">丹尼尔·里卡勾勒了他的职业和个人目标</span>
 					</div>
 				</a>
 				<a href="./public/news05.html">
 					<div class="newsimg">
 						<img
-							src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnews.cnhubei.com%2Fa%2F10001%2F202110%2Fa8c4ed4d1fa8843046c36ba56e6893d4.jpeg&refer=http%3A%2F%2Fnews.cnhubei.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1637667204&t=94004c5e8b2a315f452758353e2b9c06">
+							src="https://media.formula1.com/image/upload/f_auto/q_auto/v1679505643/fom-website/manual/2023/Saudi2023/Post/MR_2023_PRE-SEASON-TEST_BAHRAIN_DRIVE-036.jpg.transform/6col/image.jpg">
 					</div>
 					<div class="newstitle">
-						<span class="shadow">2022赛季 赛历现已公布，23站成历史之最</span>
+						<span class="shadow">Piastri有成为顶级F1车手的素质</span>
 					</div>
 				</a>
 			</div>
@@ -409,7 +409,7 @@
 		<h1 style="text-align: center;font-size: 60px;">排行榜</h1>
 		<div class="jifenbang" id="app">
 			<ol>
-				<li v-for="n in topTen" :key="n">
+				<li v-for="n in topTen" >
 					<div :style="{background: n.color}"></div>
 					{{n.name}}
 					<span>{{n.pts}} PTS</span>
@@ -429,38 +429,39 @@
 		<p>如果此网站中的某个元素侵犯了您的利益 请 <a href="">点击此处</a> 联系站长 </p>
 	</div>
 	<script src="./js/vue.js"></script>
-	<script type="text/javascript">
+	<script type="text/javascript" type="module">
 		var app = new Vue({
 			el: '#app',
 			data: {
 				message: 'Hello Vue!',
 				arr: [
-					{ name: 'Max Verstappen', color: '#3671C6', pts: 25 },
-					{ name: 'Sergio Perez', color: '#3671C6', pts: 18 },
-					{ name: 'Fernando Alonso', color: '#358C75', pts: 15 },
-					{ name: 'Carlos Sainz', color: '#F91536', pts: 12 },
-					{ name: 'Lewis Hamilton', color: '#6CD3BF', pts: 10 },
+					{ name: 'Max Verstappen', color: '#3671C6', pts: 44 },
+					{ name: 'Sergio Perez', color: '#3671C6', pts:43  },
+					{ name: 'Fernando Alonso', color: '#358C75', pts: 30 },
+					{ name: 'Carlos Sainz', color: '#F91536', pts: 20 },
+					{ name: 'Lewis Hamilton', color: '#6CD3BF', pts: 20 },
 					{ name: 'Lance Stroll', color: '#358C75', pts: 8 },
-					{ name: 'George Russell', color: '#6CD3BF', pts: 6 },
+					{ name: 'George Russell', color: '#6CD3BF', pts: 18 },
 					{ name: 'Valtteri Bottas', color: '#C92D4B', pts: 4 },
-					{ name: 'Pierre Gasly', color: '#2293D1', pts: 2 },
+					{ name: 'Pierre Gasly', color: '#2293D1', pts: 4 },
 					{ name: 'Alexander Albon', color: '#37BEDD', pts: 1 },
 					{ name: 'Yuki Tsunoda', color: '#5E8FAA', pts: 0 },
-					{ name: 'Logan Sargeant', color: '#37BEDD;', pts: 0 },
-					{ name: 'Kevin Magnussen', color: '#B6BABD', pts: 0 },
+					{ name: 'Logan Sargeant', color: '#37BEDD', pts: 0 },
+					{ name: 'Kevin Magnussen', color: '#B6BABD', pts: 1 },
 					{ name: 'Nyck De Vries', color: '#5E8FAA', pts: 0 },
 					{ name: 'Nico Hulkenberg', color: '#B6BABD', pts: 0 },
 					{ name: 'Zhou Guanyu', color: '#C92D4B', pts: 0 },
 					{ name: 'Lando Norris', color: '#F58020', pts: 0 },
 					{ name: 'Oscar Piastri', color: '#F58020', pts: 0 },
-					{ name: 'Esteban Ocon', color: '#2293D1', pts: 0 },
-					{ name: 'Charles Leclerc', color: '#F91536', pts: 0 }
+					{ name: 'Esteban Ocon', color: '#2293D1', pts: 4 },
+					{ name: 'Charles Leclerc', color: '#F91536', pts: 6 }
 				]
 			},
 			computed: {
     			topTen() {
-      				return this.arr.slice(0, 10)
+      				return this.arr.sort((a, b) => b.pts - a.pts).slice(0, 10);
     			}
+
   			}
 		})
 		let logbtn = document.getElementById("btnlogin");
